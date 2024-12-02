@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
     <!-- Styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -329,7 +329,7 @@
         <button class="modal-btn-close" type="button">Close</button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-        <form name="modal-form" autocomplete="on" novalidate>
+        <form name="modal-form" autocomplete="off">
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name">
               Ім'я
@@ -340,6 +340,7 @@
               name="user-name"
               id="user-name"
               placeholder="Ім'я"
+              required
             />
           </div>
 
@@ -353,6 +354,7 @@
               name="user-tel"
               id="user-tel"
               placeholder="Телефон"
+              pattern="^\+[0-9]{12}"
             />
           </div>
 
@@ -368,6 +370,18 @@
               placeholder="Електронна пошта"
             />
           </div>
+
+          <!-- <div class="checkbox">
+            <input
+              class="checkbox-input visually-hidden"
+              type="checkbox"
+              id="terns-conditions"
+              name="terns-conditions"
+            />
+            <label class="checkbox-label" for="terns-conditions">
+              Я точно погоджуюсь з політикою конфіденційності
+            </label>
+          </div> -->
 
           <button class="form-button button" type="submit">
             Замовити дзвінок
