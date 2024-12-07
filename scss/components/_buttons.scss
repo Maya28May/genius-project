@@ -1,14 +1,19 @@
 .button {
-    padding: 16px 32px;
-    color: var(--color_primary-light);
-    font-weight: 600;
-    background-color: var(--color_brand-normal);
-    border: 2px solid var(--color_brand-normal);
-    border-radius: 8px;
-    cursor: pointer;
-}
+  display: block;
+  padding: 16px 32px;
+  color: var(--color_primary-light);
+  font-weight: 600;
+  background-color: var(--color_brand-normal);
+  border: 2px solid var(--color_brand-normal);
+  border-radius: 8px;
+  cursor: pointer;
 
-.button:hover {
+  &:hover {
     color: var(--color_brand-dark);
     background-color: transparent;
+  }
+
+  @media screen and (min-width: $bp-tablet) {
+    padding: 16px 32px;
+  }
 }

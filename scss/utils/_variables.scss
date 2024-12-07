@@ -1,8 +1,12 @@
 :root {
-    --color_primary-dark: #31261a;
-    --color_primary-light: #faf4ea;
-    --color_brand-normal: #819B57;
-    --color_brand-dark: #465929;
-    --color_brand-light: #cfcfbc;
-    --color_secondary_dark: #A28268;
+  --color_primary-dark: #31261a;
+  --color_primary-light: #faf4ea;
+  --color_brand-normal: #819b57;
+  --color_brand-dark: #465929;
+  --color_brand-light: #cfcfbc;
+  --color_secondary_dark: #a28268;
 }
+
+$bp-mobile: 480px;
+$bp-tablet: 758px;
+$bp-desktop: 1200px;
