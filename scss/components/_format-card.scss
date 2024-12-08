@@ -9,7 +9,7 @@
     180deg,
     rgba(49, 38, 26, 0) 55.21%,
     rgba(49, 38, 26, 0.71) 72.92%,
-    var(--color_primary-dark) 100%
+    var(--color-primary-dark) 100%
   );
   border-radius: 16px;
   overflow: hidden;
@@ -26,12 +26,12 @@
   &__title {
     font-size: 24px;
     font-weight: 600;
-    color: var(--color_primary-light);
+    color: var(--color-primary-light);
   }
 
   &__text {
     font-size: 14px;
     font-weight: 300;
-    color: var(--color_primary-light);
+    color: var(--color-primary-light);
   }
 }
